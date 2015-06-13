@@ -1,0 +1,192 @@
+body
+    {
+        width:65%;
+        margin-left:auto;
+        margin-right:auto;
+        background-color: #FFFDE7;
+    }
+
+img {
+     border-radius: 50px;
+
+     transition-property: border;
+     transition-duration: 1s;
+     transition-timing-function: ease;
+     transition: border-color 2s, transform 1s;
+}
+
+img:hover {
+    transition-property: border;
+    transition-timing-function: ease;
+    transform: rotate(3deg);
+    transition-duration: 1s;
+    transition: transform 1s;
+}
+
+h5 {
+	color: grey;
+}
+
+#header {
+	background-color: #EEEEEE;
+	height: 450px;
+	border-radius: 22px;
+}
+
+
+
+#header img {
+
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+
+}
+
+#header h1 {
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+    font-family: fantasy;
+    box-shadow: 5px 10px 5px #888888;
+    background-color: #E0E0E0;
+    border-radius: 10px;
+}
+
+#header p {
+    padding: 20px;
+    margin-top: 110px;
+    margin-left: 10px;
+    font-size: 22px;
+
+}
+
+.ingredients {
+	background-color: #FAFAFA;
+	padding: 5px 20px 20px 20px;
+	border-radius: 22px;
+}
+
+.ingredients h2 {
+	font-size: 27px;
+	font-family: Impact;
+}
+
+.ingredients ul {
+	font-size: 20px;
+	list-style-type: none;
+}
+
+.ingredients li {
+	margin: 10px;
+	text-decoration: none;
+	display;
+    font-family: monospace;
+}
+
+
+.ingredients input[type=checkbox] {
+    margin: 10px;
+}
+
+
+/* Class for selected ingredients*/
+
+.selected {
+	color: grey;
+	text-decoration: line-through; 
+}
+
+#main {
+	background-color: #E1F5FE;
+	border-radius: 22px;
+	padding: 5px 20px 20px 20px;
+	font-size: 24px;
+	display: inline-block;
+	position: relative;
+
+}
+
+#main h2 {
+	font-size: 27px;
+	font-family: Impact;
+}
+
+#main h3 {
+	font-size: 26px;
+	font-family: PT Serif;
+	text-align: center;
+}
+
+#main li {
+	font-size: 22px;
+}
+
+#main p {
+    font-size: 20px;
+    margin-top: 120px;
+    position: relative;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+#main img {
+	float: left;
+	margin-right: 20px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+#main.step1 {
+	display: inline-block;
+}
+
+#main.step1 img {
+    float: left;
+}
+
+#main.step1 p {
+	position: relative;
+	margin: 20px;
+	padding: 10px;
+	margin-top: 90px;
+}
+
+.step2 {
+    display: inline-block;
+}
+
+.step2 img {
+	float: left;
+}
+
+.step2 p {
+	position: relative;
+	padding: 10px;
+}
+
+.step3 {
+	display: inline-block;
+}
+
+.step3 img {
+	float: left;
+}
+
+
+
+.step4 {
+	display:inline-block;
+}
+
+.step4 img {
+	float: left;
+}
+
+.step4 p {
+	position: relative;
+}
+
